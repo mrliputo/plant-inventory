@@ -1,0 +1,42 @@
+.nav-admin {
+	width: 13% !important;
+}
+
+.message-table {
+    width: 100%;
+	color: #000;
+}
+
+.message-table th {
+	width: 20%;
+	text-align: right;
+}
+
+.message-table th, .message-table td {
+	padding: 7px 20px 7px 0;
+	vertical-align: top;
+}
+
+#save_crop {
+	margin-bottom: 20px;
+}
+
+
+/*-- Mobile override --*/
+
+
+/*md & sm*/
+@media screen and (min-width: 768px) {
+	
+}
+
+/*xs*/
+@media screen and (max-width:767px) {
+	.species-navbar .group-admin li {
+		width: 25%;
+	}
+
+	.top-button-admin {
+		margin-bottom: 20px;
+	}
+}
